@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TNCab — Premium corporate cab services across Tamil Nadu. Airport transfers, corporate travel, employee transport and outstation trips with professional drivers and 24/7 support." />
+  <meta name="keywords" content="TNCab, corporate cab Tamil Nadu, airport taxi Chennai, employee transport, outstation cab, luxury car rental" />
+  <meta name="author" content="TNCab" />
+  <meta name="theme-color" content="#0057D9" />
+  <meta property="og:title" content="TNCab — Premium Corporate Cab Services in Tamil Nadu" />
+  <meta property="og:description" content="Reliable airport transfers, corporate travel and employee transport across Tamil Nadu." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="/tncab/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>TNCab — Premium Corporate Cab Services in Tamil Nadu</title>
+</head>
+<body>
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="TNCab home">
+        <span class="logo-mark">TN</span><span class="logo-word">Cab</span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#fleet" class="nav-link">Fleet</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#booking" class="btn btn-primary btn-cta">Book Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <span class="eyebrow">Trusted by 300+ enterprises</span>
+          <h1>Premium Corporate Cab Services Across Tamil Nadu</h1>
+          <p class="hero-sub">Airport Transfers • Corporate Travel • Employee Transport • Outstation Trips</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary ripple">Book Ride</a>
+            <a href="#contact" class="btn btn-ghost ripple">Get Quote</a>
+          </div>
+          <ul class="hero-badges">
+            <li>✓ Verified Drivers</li>
+            <li>✓ Live GPS</li>
+            <li>✓ Transparent Billing</li>
+          </ul>
+        </div>
+
+        <!-- Floating booking card -->
+        <aside class="booking-card glass reveal" id="booking" aria-label="Quick booking">
+          <h3>Quick Booking</h3>
+          <form class="booking-form" id="bookingForm" novalidate>
+            <label>
+              <span>Pickup</span>
+              <input type="text" name="pickup" placeholder="e.g. Chennai Airport" required />
+            </label>
+            <label>
+              <span>Drop</span>
+              <input type="text" name="drop" placeholder="e.g. Coimbatore" required />
+            </label>
+            <div class="row-2">
+              <label>
+                <span>Date</span>
+                <input type="date" name="date" required />
+              </label>
+              <label>
+                <span>Vehicle</span>
+                <select name="vehicle" required>
+                  <option value="">Select</option>
+                  <option>Sedan</option>
+                  <option>SUV</option>
+                  <option>Premium Sedan</option>
+                  <option>Tempo Traveller</option>
+                  <option>Luxury SUV</option>
+                </select>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-accent ripple w-full">Book Now</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <div class="media-frame">
+            <div class="media-placeholder" role="img" aria-label="Chauffeur opening the door of a premium sedan"></div>
+            <div class="badge-float glass">
+              <strong>ISO 9001</strong><span>Certified Operations</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="eyebrow">About TNCab</span>
+          <h2>Driving Tamil Nadu's enterprises with reliability, safety and comfort.</h2>
+          <p>TNCab is a corporate-first ground transportation partner delivering chauffeur-driven mobility to leading companies across Tamil Nadu. From daily employee shuttles to executive airport transfers, our operations team, verified drivers and modern fleet are engineered for punctuality and peace of mind.</p>
+          <ul class="feature-list">
+            <li>✔ Professional Drivers</li>
+            <li>✔ 24/7 Support</li>
+            <li>✔ GPS Tracking</li>
+            <li>✔ Corporate Billing</li>
+            <li>✔ Airport Pickup</li>
+            <li>✔ Clean Vehicles</li>
+          </ul>
+          <div class="counters" id="counters">
+            <div class="counter"><span class="count" data-target="15">0</span><span class="plus">+</span><p>Years Experience</p></div>
+            <div class="counter"><span class="count" data-target="500">0</span><span class="plus">K+</span><p>Trips Completed</p></div>
+            <div class="counter"><span class="count" data-target="300">0</span><span class="plus">+</span><p>Corporate Clients</p></div>
+            <div class="counter"><span class="count" data-target="100">0</span><span class="plus">+</span><p>Cities Served</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Our Services</span>
+          <h2>Mobility solutions built for modern business</h2>
+          <p>Six purpose-built service lines covering every corporate travel need — from a single airport pickup to citywide employee transport programs.</p>
+        </header>
+        <div class="grid grid-3">
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 16l10-11 10 11-2 2-3-1v4H7v-4l-3 1-2-2z"/></svg></div>
+            <h3>Airport Transfer</h3>
+            <p>On-time pickup and drop for all major airports in Tamil Nadu with flight tracking and meet-and-greet service.</p>
+          </article>
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v10H4zM2 18h20v2H2zM7 8v6M17 8v6"/></svg></div>
+            <h3>Corporate Travel</h3>
+            <p>Executive-grade chauffeur services for meetings, client visits and business roadshows with consolidated billing.</p>
+          </article>
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12l2-6h14l2 6v6H3zM6 18v2M18 18v2M6 12h12"/></svg></div>
+            <h3>Employee Transportation</h3>
+            <p>Reliable home-to-office shuttles with route optimization, live tracking and 24/7 command center support.</p>
+          </article>
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2c3 3 3 17 0 20M12 2c-3 3-3 17 0 20"/></svg></div>
+            <h3>Outstation Cabs</h3>
+            <p>Comfortable long-distance travel across South India with experienced drivers and one-way or round-trip options.</p>
+          </article>
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13l2-5h14l2 5v6H3zM7 19a2 2 0 100-4 2 2 0 000 4zM17 19a2 2 0 100-4 2 2 0 000 4z"/></svg></div>
+            <h3>Luxury Cars</h3>
+            <p>Premium sedans and SUVs for VIP guests, weddings and high-profile events — with white-glove service.</p>
+          </article>
+          <article class="card service-card reveal">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v4H4zM4 10h16v4H4zM4 16h16v4H4z"/></svg></div>
+            <h3>Monthly Rentals</h3>
+            <p>Dedicated cars and drivers on flexible monthly contracts, ideal for expats and long-term corporate assignments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FLEET ============ -->
+    <section class="section" id="fleet">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Our Fleet</span>
+          <h2>A modern, well-maintained fleet for every occasion</h2>
+          <p>Every vehicle is sanitized before dispatch, GPS-enabled and driven by a trained, background-verified chauffeur.</p>
+        </header>
+        <div class="grid grid-3">
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="sedan"></div>
+            <div class="card-body">
+              <h3>Sedan</h3>
+              <ul class="specs"><li>4 Seats</li><li>2 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book Sedan</a>
+            </div>
+          </article>
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="suv"></div>
+            <div class="card-body">
+              <h3>SUV</h3>
+              <ul class="specs"><li>6 Seats</li><li>4 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book SUV</a>
+            </div>
+          </article>
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="premium"></div>
+            <div class="card-body">
+              <h3>Premium Sedan</h3>
+              <ul class="specs"><li>4 Seats</li><li>3 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book Premium</a>
+            </div>
+          </article>
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="tempo"></div>
+            <div class="card-body">
+              <h3>Tempo Traveller</h3>
+              <ul class="specs"><li>12 Seats</li><li>10 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book Tempo</a>
+            </div>
+          </article>
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="luxury"></div>
+            <div class="card-body">
+              <h3>Luxury SUV</h3>
+              <ul class="specs"><li>6 Seats</li><li>5 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book Luxury</a>
+            </div>
+          </article>
+          <article class="card fleet-card reveal">
+            <div class="fleet-img" data-vehicle="electric"></div>
+            <div class="card-body">
+              <h3>Electric Sedan</h3>
+              <ul class="specs"><li>4 Seats</li><li>2 Bags</li><li>AC</li></ul>
+              <a href="#booking" class="btn btn-outline ripple w-full">Book EV</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE ============ -->
+    <section class="section section-dark" id="why">
+      <div class="container">
+        <header class="section-head reveal light">
+          <span class="eyebrow">Why TNCab</span>
+          <h2>The corporate transport partner enterprises rely on</h2>
+        </header>
+        <div class="grid grid-3">
+          <div class="why-card reveal"><div class="why-icon">👤</div><h4>Professional Drivers</h4><p>Trained, uniformed and background-verified chauffeurs.</p></div>
+          <div class="why-card reveal"><div class="why-icon">₹</div><h4>Transparent Pricing</h4><p>Clear fares, itemized invoices and no hidden surcharges.</p></div>
+          <div class="why-card reveal"><div class="why-icon">⏱</div><h4>24×7 Availability</h4><p>Round-the-clock booking desk and on-road support team.</p></div>
+          <div class="why-card reveal"><div class="why-icon">📍</div><h4>GPS Tracking</h4><p>Live vehicle location shared with employees and admins.</p></div>
+          <div class="why-card reveal"><div class="why-icon">✓</div><h4>On-time Pickup</h4><p>98.7% punctuality rate backed by dispatch monitoring.</p></div>
+          <div class="why-card reveal"><div class="why-icon">🏢</div><h4>Corporate Solutions</h4><p>Custom SLAs, monthly billing and dedicated account managers.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">How It Works</span>
+          <h2>Book a ride in under two minutes</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span class="step-num">1</span><h4>Search Ride</h4><p>Enter pickup, drop and travel date.</p></li>
+          <li class="reveal"><span class="step-num">2</span><h4>Choose Vehicle</h4><p>Pick from sedan, SUV or luxury classes.</p></li>
+          <li class="reveal"><span class="step-num">3</span><h4>Confirm Booking</h4><p>Review the fare and confirm instantly.</p></li>
+          <li class="reveal"><span class="step-num">4</span><h4>Driver Assigned</h4><p>Get chauffeur details and live tracking.</p></li>
+          <li class="reveal"><span class="step-num">5</span><h4>Enjoy Trip</h4><p>Sit back and travel in comfort.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section-alt" id="testimonials">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Trusted by leaders across industries</h2>
+        </header>
+        <div class="grid grid-3">
+          <article class="card testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"TNCab manages our Chennai employee transport with military precision. Zero missed pickups in the last quarter."</p>
+            <div class="person"><div class="avatar" data-color="1"></div><div><strong>Priya Ramesh</strong><span>HR Head, Nexora Systems</span></div></div>
+          </article>
+          <article class="card testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"Their airport transfer service is flawless — clean cars, sharp drivers and always ahead of schedule."</p>
+            <div class="person"><div class="avatar" data-color="2"></div><div><strong>Arun Vaidyanathan</strong><span>CFO, Meridian Textiles</span></div></div>
+          </article>
+          <article class="card testimonial reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"A genuine corporate partner. Consolidated billing and account reporting have simplified our travel ops."</p>
+            <div class="person"><div class="avatar" data-color="3"></div><div><strong>Divya Krishnan</strong><span>Admin Lead, Cavion Global</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="eyebrow">Get in touch</span>
+          <h2>Let's plan your next corporate ride</h2>
+          <p>Reach out for enterprise pricing, RFPs, or to open a corporate account. Our team responds within one business hour.</p>
+          <ul class="contact-list">
+            <li><strong>Address</strong><span>142, Anna Salai, Teynampet, Chennai 600018</span></li>
+            <li><strong>Phone</strong><a href="tel:+914400000000">+91 44 0000 0000</a></li>
+            <li><strong>Email</strong><a href="mailto:corporate@tncab.in">corporate@tncab.in</a></li>
+            <li><strong>Working Hours</strong><span>Mon–Sun · 24 × 7 Operations</span></li>
+          </ul>
+        </div>
+        <form class="contact-form card reveal" id="contactForm" novalidate>
+          <h3>Send us a message</h3>
+          <label><span>Name</span><input type="text" name="name" required /></label>
+          <label><span>Email</span><input type="email" name="email" required /></label>
+          <label><span>Phone</span><input type="tel" name="phone" required /></label>
+          <label><span>Message</span><textarea name="message" rows="4" required></textarea></label>
+          <button type="submit" class="btn btn-primary ripple w-full">Submit</button>
+          <p class="form-note" id="contactNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="container map-wrap reveal">
+        <div class="map-placeholder" role="img" aria-label="Map showing TNCab Chennai office location">
+          <span>Google Map Placeholder — Chennai HQ</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo logo-light"><span class="logo-mark">TN</span><span class="logo-word">Cab</span></a>
+        <p class="footer-tag">Premium corporate ground transportation across Tamil Nadu.</p>
+      </div>
+      <div>
+        <h5>Quick Links</h5>
+        <ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#fleet">Fleet</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul><li><a href="#services">Airport Transfer</a></li><li><a href="#services">Corporate Travel</a></li><li><a href="#services">Employee Transport</a></li><li><a href="#services">Outstation</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul class="social">
+          <li><a href="#" aria-label="LinkedIn">in</a></li>
+          <li><a href="#" aria-label="Instagram">ig</a></li>
+          <li><a href="#" aria-label="Facebook">fb</a></li>
+          <li><a href="#" aria-label="X">x</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> TNCab Mobility Pvt Ltd. All rights reserved.</p>
+      <p><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
